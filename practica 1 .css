@@ -1,0 +1,34 @@
+
+img {
+    transición: transformación 0.4s facilidad;
+}
+   
+img:hover {
+   -webkit-transform:escala (1.15); /* o algún otro valor */
+    transform:escala (1.15);
+}
+main{
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+.card{
+    margin-top: 30px;
+}
+.acordion{
+    margin: 30px;
+}
+.display{
+    color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 500px) { 
+    .carousel-inner{
+        height: 500px;
+    }
+}
